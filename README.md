@@ -20,3 +20,19 @@ Here is the example data set used for testing
             new Transactions("Adam", 90, "07/2023"),
             new Transactions("Adam", 120, "07/2023")
         );
+
+
+# request body for postman testing
+
+[
+	{
+	"name":"Adam",
+	"amount":120,
+	"date":"07/2023"
+	},
+	{
+	"name":"Adam",
+	"amount":90,
+	"date":"07/2023"
+	}
+]
