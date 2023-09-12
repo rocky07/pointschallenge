@@ -22,6 +22,8 @@ Here is the example data set used for testing
         );
 
 	![Alt text](image.png)	
+![Screenshot 2023-09-11 9 21 31 PM](https://github.com/rocky07/pointschallenge/assets/1245181/332e1bcf-092d-428f-bf7e-bdf9882f8c35)
+
 
 
 # request body for postman testing
