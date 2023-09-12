@@ -21,6 +21,8 @@ Here is the example data set used for testing
             new Transactions("Adam", 120, "07/2023")
         );
 
+	![Alt text](image.png)	
+
 
 # request body for postman testing
 
@@ -36,3 +38,37 @@ Here is the example data set used for testing
 	"date":"07/2023"
 	}
 ]
+
+# postman collection
+
+{
+	"variables": [],
+	"info": {
+		"name": "a",
+		"_postman_id": "fc2e6dfb-3681-e12d-2bd5-a4700714b23d",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "api/points",
+			"request": {
+				"url": "https://refactored-space-palm-tree-7vw6g4rwg4frwjp-8080.app.github.dev/api/points",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[\n\t{\n\t\"name\":\"Adam\",\n\t\"amount\":120,\n\t\"date\":\"07/2023\"\n\t},\n\t{\n\t\"name\":\"Adam\",\n\t\"amount\":90,\n\t\"date\":\"07/2023\"\n\t}\n]"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
