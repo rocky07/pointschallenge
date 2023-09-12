@@ -1,15 +1,15 @@
 # pointschallenge
-#health 
+# health 
 I have implemented a custom health check class . The implementation returns a boolean for the time being . this can be modified to test if database or messageing service is available
 check below url to see application health 
 http://localhost:8080/actuator/health
 
-#testing
+# testing
 test case is present in the code to test the api available at /api/points
 the case was passed with the sample data provided in the test class. 
 use "mvn clean install" to run test and build code
 
-#dataset
+# dataset
 Data set is hardcoded in the test cases  . 
 
 Here is the example data set used for testing
@@ -77,7 +77,7 @@ Here is the example data set used for testing
 }
 
 
-#unit test code added below . the test class is also checked in 
+# unit test code added below . the test class is also checked in 
 
 @SpringBootTest
 @AutoConfigureMockMvc
