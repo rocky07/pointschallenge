@@ -21,7 +21,8 @@ Here is the example data set used for testing
             new Transactions("Adam", 120, "07/2023")
         );
 
-	![Alt text](image.png)	
+# sample data set
+	
 ![Screenshot 2023-09-11 9 21 31 PM](https://github.com/rocky07/pointschallenge/assets/1245181/332e1bcf-092d-428f-bf7e-bdf9882f8c35)
 
 
